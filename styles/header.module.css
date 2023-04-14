@@ -1,0 +1,50 @@
+.header {
+	background-image: linear-gradient(
+			to right,
+			rgb(0 0 0 / 0.8),
+			rgb(0 0 0 / 0.7)
+		),
+		url(../public/img/header.jpg);
+	padding: 5rem 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.bar {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+.navegation {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+}
+@media (min-width: 768px) {
+	.navegation {
+		margin: 0;
+	}
+}
+.navegation a {
+	padding: 0.5rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--white);
+	transition-property: background-color;
+	transition-duration: 500ms;
+}
+.navegation a:hover,
+.active {
+	background-color: var(--primary);
+}

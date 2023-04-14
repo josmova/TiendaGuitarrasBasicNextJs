@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔖 Tienda de Guitarras con Next.js
 
-## Getting Started
+Es un proyecto con Next.js donde la información se consume desde el cms de strapi. El proyecto consiste en poder ver guitarras, ver detalles de cada una, agregar al carrito, solo llega al punto donde se pude ver el total y sub total, no se tiene el tema de pago electrónico. Se tiene apartado de post y sobre la tienda. Los estilos se trabajaron con css module(cart.module.css) y todo es realizado con Next.js
 
-First, run the development server:
+El backend es con strapi y el priyecto es el siguiente: [strapibasico-tiendaguitarras](https://github.com/josmova/strapibasico-tiendaguitarras)
+
+## 📃 Tecnologías Utilizadas
+
+| Tecnología | Versión |
+| :--------- | :------ |
+| `Next.js`  | 13.2.3  |
+
+## 📋 Documentación
+
+-Para más información de: [Next.js](https://nextjs.org/)
+
+-Para más información de: [strapi](https://strapi.io/)
+
+## 📖 Características
+
+- **Guitarras** Ver guitarras y sus detalles
+- **Posts** Ver posts y detalles
+- **Carrito de compras** Se peude agregar guitarras a carrito
+
+📇 Se puede ver algunas imagenes de ejemplo:
+
+![TiendaGuitarras-InicioPart1](/public/img/readme/InicioPart1.png)
+![TiendaGuitarras-InicioPart2](/public/img/readme/InicioPart2.png)
+![TiendaGuitarras-InicioPart3](/public/img/readme/InicioPart3.png)
+![TiendaGuitarras-DetallesBlog](/public/img/readme/DetallesBlog.png)
+![TiendaGuitarras-GuitarraDetalles](/public/img/readme/GuitarraDetalles.png)
+![TiendaGuitarras-GuitarrasCart](/public/img/readme/GuitarrasCart.png)
+![TiendaGuitarras-nosotros](/public/img/readme/nosotros.png)
+
+## 🚀 Comenzando
+
+Este proyecto se realizo como frontend para el siguiente proyecto:
+
+**Backend strapibasico-tiendaguitarras con Strapi**
+
+- [strapibasico-tiendaguitarras](https://github.com/josmova/strapibasico-tiendaguitarras)
+
+## 👩‍💻 Instalación
+
+Instalacións StrapiBasico-TiendaGuitarras con npm:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  cd TiendaGuitarrasBasicNextJs
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Luego ejecutar el siguiente comando:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 👽 Autor
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[![portfolio](https://img.shields.io/badge/Mi_portafolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://josemontiel.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josemontielmv/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> @Josmova ( Jose Montiel )
